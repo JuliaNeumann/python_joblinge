@@ -13,8 +13,8 @@ Die Funktion bekommt drei Argumente (die drei Strings) und gibt einen neuen Stri
 Ein Aufruf der Funktion sollte also z.B. so aussehen:
 
 ```
-print( makeSentence('Funktionen', 'machen', 'Freude') )
-print( makeSentence('Python', 'ist', 'super') )
+print(makeSentence('Funktionen', 'machen', 'Freude'))
+print(makeSentence('Python', 'ist', 'super'))
 ```
 ... und dabei sollte ausgegeben werden:
 
@@ -31,8 +31,8 @@ Die Funktion bekommt 1 Argument (eine Zahl, der Wert in Gramm) und gibt eine Zah
 Ein Aufruf der Funktion sollte also z.B. so aussehen:
 
 ```
-print( gramToKilogram(7000) )
-print( gramToKilogram(1125) )
+print(gramToKilogram(7000))
+print(gramToKilogram(1125))
 ```
 ... und dabei sollte ausgegeben werden:
 
