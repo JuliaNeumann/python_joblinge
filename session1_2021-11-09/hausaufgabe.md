@@ -1,5 +1,11 @@
 # Hausaufgabe Session 1
 
+## Installieren:
+
+- Python: https://wiki.python.org/moin/BeginnersGuide/Download
+- Visual Studio Code (= VS Code): https://code.visualstudio.com/download
+- VS Code Pyhton Extension: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+
 ## Aufgabe 1
 
 Schreibt eine Funktion `makeSentence`, die aus drei Strings einen Satz macht.
@@ -18,7 +24,8 @@ print( makeSentence('Python', 'ist', 'super') ) //Ausgabe in der Konsole: 'JavaS
 ```
 
 ## Aufgabe 2
-Schreibt eine Funktion gramToKilogram`, die einen Wert von Gramm zu Kilogramm umrechnet (1000 Gramm = 1 Kilogramm).
+
+Schreibt eine Funktion `gramToKilogram`, die einen Wert von Gramm zu Kilogramm umrechnet (1000 Gramm = 1 Kilogramm).
 Die Einheiten lassen wir dabei weg.
 Die Funktion bekommt 1 Argument (eine Zahl, der Wert in Gramm) und gibt eine Zahl zurück (der Wert in Kilogramm).
 Ein Aufruf der Funktion sollte also z.B. so aussehen:
