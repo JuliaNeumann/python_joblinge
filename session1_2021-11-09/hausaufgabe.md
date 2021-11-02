@@ -13,8 +13,8 @@ Die Funktion bekommt drei Argumente (die drei Strings) und gibt einen neuen Stri
 Ein Aufruf der Funktion sollte also z.B. so aussehen:
 
 ```
-print( makeSentence('Funktionen', 'machen', 'Freude') ) //Ausgabe in der Konsole: 'Funktionen machen Freude.'
-print( makeSentence('Python', 'ist', 'super') ) //Ausgabe in der Konsole: 'JavaScript ist super.' 
+print( makeSentence('Funktionen', 'machen', 'Freude') )
+print( makeSentence('Python', 'ist', 'super') )
 ```
 ... und dabei sollte ausgegeben werden:
 
