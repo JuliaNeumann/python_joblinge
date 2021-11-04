@@ -32,7 +32,7 @@ animals = ['Katze', 'Hund', 'Elefant']
 
 - über die Position in der Liste (= Index)
 - fängt bei 0 an
-- 
+
 ``` 
 print(animals[0])  # 'Katze'
 print(animals[1])  # 'Hund'
@@ -41,9 +41,9 @@ print(animals[1])  # 'Hund'
 
 ### Aufgabe 1
 
-Legt eine Liste mit 4 Namen darin an.
-Gebt den dritten Namen im Array aus.
-Was passiert, wenn man versucht auf einen Index zuzugreifen, für den es keinen Wert in der Liste gibt?
+- Legt eine Liste mit 4 Namen darin an.
+- Gebt den dritten Namen im Array aus.
+- Was passiert, wenn man versucht auf einen Index zuzugreifen, für den es keinen Wert in der Liste gibt?
 
 
 ## Built-In Listen-Methoden
@@ -84,8 +84,8 @@ for animal in animals:
 
 ### Aufgabe 2
 
-Schreibt eine for-Schleife, die jeden Namen aus dem Array aus Aufgabe 1 zusammen mit einem Nachnamen ausgibt.
-Ändert den Code in der Schleife so, dass nur Namen mit 5 Buchstaben ausgegeben werden.
+- Schreibt eine for-Schleife, die jeden Namen aus dem Array aus Aufgabe 1 zusammen mit einem Nachnamen ausgibt.
+- Ändert den Code in der Schleife so, dass nur Namen mit 5 Buchstaben ausgegeben werden.
 
 
 ## Und noch mehr Daten: Dictionaries
@@ -108,8 +108,8 @@ print(person["age"])  # 28
 
 ### Aufgabe 3
 
-Legt ein Dict für ein T-Shirt an.
-Das Doct soll Werte für Farbe, Preis und Marke enthalten.
+- Legt ein Dict für ein T-Shirt an.
+- Das Dict soll Werte für Farbe, Preis und Marke enthalten.
 
 
 ## Eigene Daten-Typen definieren: Klassen & Objekte
