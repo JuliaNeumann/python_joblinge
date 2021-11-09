@@ -1,5 +1,7 @@
 # Hausaufgabe Session 1
 
+Die Aufgaben könnt ihr in https://www.jdoodle.com/python3-programming-online/ lösen und dann auf die drei Punkte klicken und auf "Save (to local file)".
+
 ## Installieren:
 
 - Python: https://wiki.python.org/moin/BeginnersGuide/Download
