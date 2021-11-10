@@ -30,7 +30,7 @@ print("Hello World!")
 myName = "Julia"
 ```   
 
-### Aufgabe 1
+### Übung 1
 - Legt eine Variable an und speichert euren Namen als String in der Variable.
 - Lasst euch mit `print` den Wert der Variable ausgeben.
 - Benutzt `print`, um einen Satz anzuzeigen: "Das ist mein Name: " und danach der Wert der Variable. (Hinweis: Mit + kann man 2 Strings verbinden.)
@@ -51,7 +51,7 @@ print(7 + 3)
 product = 10 * 5
 ```    
 
-### Aufgabe 2
+### Übung 2
 - Legt zwei Variablen mit jeweils einer Zahl an.
 - Speichert die Summe der beiden Zahlen in einer dritten Variable.
 - Gebt diese dritte Variable in der Konsole aus.
@@ -65,7 +65,7 @@ last_name = 'Lustig'
 full_name = first_name + ' ' + last_name
 ```
                         
-### Aufgabe 3
+### Übung 3
 - Legt die folgenden Variablen an und lasst sie in der Konsole ausgeben.
 - Was passiert, wenn man in Python Zahlen und Strings kombiniert?
 
@@ -83,7 +83,7 @@ page3 = page + "2"
 - `>=` 	ist größer als oder gleich
 - `<=` 	ist kleiner als oder gleich
 
-### Aufgabe 4
+### Übung 4
 - Gebt das Ergebnis von einem Vergleich in der Konsole aus.
 - Welche Daten-Art hat das Ergebnis?
 
@@ -100,7 +100,7 @@ else:
   print('Schade, number ist kleiner als 5!')
 ```
                         
-### Aufgabe 5
+### Übung 5
 - Definiert zwei Variablen, die jeweils einen String enthalten.
 - Danach soll ein `print` anzeigen, ob zweimal der gleiche String eingegeben wurde.
 
@@ -119,7 +119,7 @@ while number < 5:
 print(number)
 ```
 
-### Aufgabe 6
+### Übung 6
 - Legt eine Variable an, die eine Zahl (größer als 0) enthält.
 - Schreibt eine `while`-Schleife, die von der Variable bis 0 herunterzählt und dabei jede Zahl mit `print` ausgibt.
 
@@ -137,7 +137,7 @@ def sayHello():
 sayHello()
 ```
 
-### Aufgabe 7
+### Übung 7
 - Schreibt eine Funktion, die das Ergebnis von 12 * 5 ausgibt.
 
 ### Argumente
@@ -167,7 +167,7 @@ sum3and4 = add(3, 4)
 print(sum1and2 + sum3and4)
 ```
 
-### Aufgabe 8
+### Übung 8
 - Schreibt eine Funktion, die eine Zahl als Argument bekommt.
 - Die Funktion soll `True` zurückgeben, wenn die Zahl größer als 10 ist. Ansonsten gibt sie `False` zurück.
 

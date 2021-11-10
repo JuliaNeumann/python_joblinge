@@ -39,7 +39,7 @@ print(animals[1])  # 'Hund'
 ```                         
                     
 
-### Aufgabe 1
+### Übung 1
 
 - Legt eine Liste mit 4 Namen darin an.
 - Gebt den dritten Namen im Array aus.
@@ -82,9 +82,9 @@ for animal in animals:
   print(animal)
 ```
 
-### Aufgabe 2
+### Übung 2
 
-- Schreibt eine for-Schleife, die jeden Namen aus dem Array aus Aufgabe 1 zusammen mit einem Nachnamen ausgibt.
+- Schreibt eine for-Schleife, die jeden Namen aus dem Array aus Übung 1 zusammen mit einem Nachnamen ausgibt.
 - Ändert den Code in der Schleife so, dass nur Namen mit 5 Buchstaben ausgegeben werden.
 
 
@@ -106,7 +106,7 @@ print(person['name']) # 'Peter'
 print(person["age"])  # 28
 ```
 
-### Aufgabe 3
+### Übung 3
 
 - Legt ein Dict für ein T-Shirt an.
 - Das Dict soll Werte für Farbe, Preis und Marke enthalten.
@@ -167,7 +167,7 @@ person1 = Person("John", 36)
 person1.say_hi() # "Hi, ich bin John"
 ```
 
-### Aufgabe 4
+### Übung 4
 
 - Schreibt das T-Shirt Dict als Klasse anstatt als Dict.
 - Die Klasse soll einen Konstruktor haben, über den man Farbe, Preis und Marke angeben kann.
@@ -176,12 +176,12 @@ person1.say_hi() # "Hi, ich bin John"
 - Erstellt damit zwei T-Shirt Objekte.
 - Erhöht den Preis von beiden T-Shirts.
 
-### Aufgabe 5
+### Übung 5
 
 - Fügt der T-Shirt Klasse eine Eigenschaft hinzu, die einen maximalen Preis festlegt, der für alle T-Shirts gleich ist.
 - Ändert die Preis-Erhöhen-Methode so, dass der Preis nur erhöht wird, wenn der neue Preis nicht höher als der maximale Preis ist.
 
-## Aufgabe 6
+## Übung 6
 
 - Fügt der T-Shirt Klasse eine Eigenschaft hinzu, die die Größen, in denen das T-Shirt gekauft werden kann, in einer Liste enthält.
 - Fügt der T-Shirt Klasse eine Methode hinzu, der man als Argument eine Größe übergibt, und die prüft, ob diese Größe verfübgar ist.
