@@ -35,6 +35,14 @@ myName = "Julia"
 - Lasst euch mit `print` den Wert der Variable ausgeben.
 - Benutzt `print`, um einen Satz anzuzeigen: "Das ist mein Name: " und danach der Wert der Variable. (Hinweis: Mit + kann man 2 Strings verbinden.)
 
+#### Lösung:
+
+```
+my_name = 'Julia'
+print(my_name)
+print('Das ist mein Name: ' + my_name)
+```
+
 ## Operatoren
 - zum Kombinieren / Manipulieren von Daten
 - ähnlich wie Rechenzeichen in der Mathematik
@@ -56,6 +64,15 @@ product = 10 * 5
 - Speichert die Summe der beiden Zahlen in einer dritten Variable.
 - Gebt diese dritte Variable in der Konsole aus.
 
+#### Lösung:
+
+```
+number1 = 12
+number2 = 10
+number3 = number1 + number2
+print(number3)
+```
+
 ### Operatoren für Strings
 + 	Strings kombinieren / zusammenhängen (Concatenation)
 
@@ -72,7 +89,7 @@ full_name = first_name + ' ' + last_name
 ```
 page = "15"
 page2 = page + 1
-page3 = page + "2"                            
+page3 = page + "2"       
 ```
 
 ### Vergleichsoperatoren
@@ -86,6 +103,13 @@ page3 = page + "2"
 ### Übung 4
 - Gebt das Ergebnis von einem Vergleich in der Konsole aus.
 - Welche Daten-Art hat das Ergebnis?
+
+#### Lösung:
+
+```
+print(3 <= 5)
+```
+Das Ergebnis ist ein Boolean (True/False).
 
 ## Bedingungen (Conditions)
 - führen Code nur dann aus, wenn etwas wahr/falsch ist
@@ -103,6 +127,17 @@ else:
 ### Übung 5
 - Definiert zwei Variablen, die jeweils einen String enthalten.
 - Danach soll ein `print` anzeigen, ob zweimal der gleiche String eingegeben wurde.
+
+#### Lösung:
+
+```
+string1 = "Hello"
+string2 = "World"
+if (string1 == string2):
+  print("Die Strings sind gleich!")
+else:
+  print("Die Strings sind nicht gleich!")
+```
 
 ## Schleifen (Loops)
 - führen Code mehrmals aus
@@ -123,6 +158,15 @@ print(number)
 - Legt eine Variable an, die eine Zahl (größer als 0) enthält.
 - Schreibt eine `while`-Schleife, die von der Variable bis 0 herunterzählt und dabei jede Zahl mit `print` ausgibt.
 
+#### Lösung:
+
+```
+my_number = 10
+while my_number >= 0:
+  print(my_number)
+  my_number = my_number - 1
+```
+
 ## Funktionen
 - speichern Code unter einem Namen, damit er an verschiedenen Stellen im Programm ausgeführt werden kann
 - Python-Befehl: `def`
@@ -139,6 +183,15 @@ sayHello()
 
 ### Übung 7
 - Schreibt eine Funktion, die das Ergebnis von 12 * 5 ausgibt.
+
+#### Lösung:
+
+```
+def sum():
+  print(12 * 5)
+
+print(sum())
+```
 
 ### Argumente
 = Werte, die man einer Funktion mitgibt
@@ -171,3 +224,12 @@ print(sum1and2 + sum3and4)
 - Schreibt eine Funktion, die eine Zahl als Argument bekommt.
 - Die Funktion soll `True` zurückgeben, wenn die Zahl größer als 10 ist. Ansonsten gibt sie `False` zurück.
 
+#### Lösung:
+
+```
+def isGreaterThan10(my_number):
+  return my_number > 10
+
+print(isGreaterThan10(5))
+print(isGreaterThan10(50))
+```
