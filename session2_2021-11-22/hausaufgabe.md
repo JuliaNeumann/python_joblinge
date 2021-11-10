@@ -1,8 +1,10 @@
 # Hausaufgabe Session 2
 
+Diese Aufgaben sollten in VS Code in `.py` Dateien geschrieben und ausgeführt werden.
+
 ## Aufgabe 1
 
-Schreibt eine Funktion, die aus einer Liste mit beliebig vielen Strings darin einen Satz macht.
+Schreibt eine Funktion `makeSentence2`, die aus einer Liste mit beliebig vielen Strings darin einen Satz macht.
 Die Funktion bekommt ein Argument (eine Liste von Strings) und gibt einen neuen String (den Satz) zurück.
 
 ```
@@ -20,7 +22,7 @@ Ausgabe:
 
 ## Aufgabe 2
 
-Schreibt eine Funktion, die aus einer Liste von Zahlen die größte Zahl heraussucht.
+Schreibt eine Funktion `findMax`, die aus einer Liste von Zahlen die größte Zahl heraussucht.
 Die Funktion bekommt ein Argument (die Liste von Zahlen) und gibt eine Zahl (die größte Zahl) zurück.
 
 ```
@@ -32,4 +34,20 @@ Ausgabe:
 ```
 12
 23256
+```
+
+## Aufgabe 3
+
+Schreibt eine Funktion `makeDict`, die aus zwei Listen ein Dict macht.
+Die erste Liste soll die keys ("Namen") enthalten, die zweite die values ("Werte").
+
+```
+print(makeDict(['name', 'age', 'birthday'], ['Peter', 32, '06.06.1989']))
+print(makeDict(['katze', 'hund'], ['miau', 'wuff']))
+```
+
+Ausgabe:
+```
+{'name': 'Peter', 'age': 32, 'birthday': '06.06.1989'}
+{'katze': 'miau', 'hund': 'wuff'}
 ```

@@ -1,5 +1,14 @@
 # Programmierung mit Python - Session 2
 
+## Python Programme schreiben und ausführen mit VS Code
+
+- Python code muss in einer Datei mit der Endung `.py` gespeichert werden
+- um den Code auszuführen, kann man in VS Code den grünen dreieckigen Button oben rechts verwenden
+
+### Übung 1
+
+- Schreibt ein Python Programm, dass "Hello World!" ausgibt, speichert es und führt es mit VS Code aus.
+
 ## Kommentare
 
 - Anmerkungen im Code, haben keine Auswirkung auf das Programm
@@ -39,7 +48,7 @@ print(animals[1])  # 'Hund'
 ```                         
                     
 
-### Übung 1
+### Übung 2
 
 - Legt eine Liste mit 4 Namen darin an.
 - Gebt den dritten Namen im Array aus.
@@ -82,7 +91,7 @@ for animal in animals:
   print(animal)
 ```
 
-### Übung 2
+### Übung 3
 
 - Schreibt eine for-Schleife, die jeden Namen aus dem Array aus Übung 1 zusammen mit einem Nachnamen ausgibt.
 - Ändert den Code in der Schleife so, dass nur Namen mit 5 Buchstaben ausgegeben werden.
@@ -92,7 +101,7 @@ for animal in animals:
 
 = Container für Werte mit Namen, die zusammengehören
 - Variablen für mehrere Werte (wie Listen)
-- aber: jeder Wert bekommt einen Namen, über den man zugreifen kann (statt Index bei Listen)
+- aber: jeder Wert (value) bekommt einen Namen (key), über den man zugreifen kann (statt Index bei Listen)
 - in Python: `{ }`
 
 ```
@@ -106,84 +115,12 @@ print(person['name']) # 'Peter'
 print(person["age"])  # 28
 ```
 
-### Übung 3
-
-- Legt ein Dict für ein T-Shirt an.
-- Das Dict soll Werte für Farbe, Preis und Marke enthalten.
-
-
-## Eigene Daten-Typen definieren: Klassen & Objekte
-
-- oft braucht man mehrere Variablen des gleichen Typs, die alle die gleichen Eigenschaften / Funktionalität haben,
-  aber unterschiedliche Werte
-- dafür kann man einen eigenen Daten-Typ als eine Klasse definieren und dann beliebig viele Objekte als Instanzen dieser Klasse anlegen
-
+- Um einen Eintrag zu einem Dict hinzuzufügen, kann man wie beim Anlegen von Variable `=` verwenden:
 ```
-class Person:
-  name = 'Peter'
-  age = 28
-  
-person1 = Person()
-person2 = Person()
-
-print(person1.name) # 'Peter'
-print(person2.name) # 'Peter'
-```
-
-### Objekte: Eigenschaften und Konstruktoren
-
-- Eigenschaften = Daten im Objekt (Zahlen, Strings, Listen etc.)
-- über einen Konstruktor können Eigenschaften in einem Objekt gesetzt werden
-
-
-```
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-person1 = Person("John", 36)
-person2 = Person("Peter", 28)
-
-print(person1.name) # 'John'
-print(person2.name) # 'Peter' 
-```
-
-### Objekte: Methoden
-
-- Methoden = Funktionen im Objekt
-- Methoden können auf Eigenschaften des Objektes mithilfe von `self` zugreifen     
-
-```
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-    
-  def say_hi(self):
-    print("Hi, ich bin " + self.name)
-
-person1 = Person("John", 36)
-person1.say_hi() # "Hi, ich bin John"
+person['phone_number'] = '0123/456789'
 ```
 
 ### Übung 4
 
-- Schreibt das T-Shirt Dict als Klasse anstatt als Dict.
-- Die Klasse soll einen Konstruktor haben, über den man Farbe, Preis und Marke angeben kann.
-- Die Klasse soll eine Methode haben, um den Preis für ein T-Shirt zu erhöhen.
-  Die Methode soll ein Argument bekommen: Die Zahl, um wieviel der Preis erhöht werden soll.
-- Erstellt damit zwei T-Shirt Objekte.
-- Erhöht den Preis von beiden T-Shirts.
-
-### Übung 5
-
-- Fügt der T-Shirt Klasse eine Eigenschaft hinzu, die einen maximalen Preis festlegt, der für alle T-Shirts gleich ist.
-- Ändert die Preis-Erhöhen-Methode so, dass der Preis nur erhöht wird, wenn der neue Preis nicht höher als der maximale Preis ist.
-
-## Übung 6
-
-- Fügt der T-Shirt Klasse eine Eigenschaft hinzu, die die Größen, in denen das T-Shirt gekauft werden kann, in einer Liste enthält.
-- Fügt der T-Shirt Klasse eine Methode hinzu, der man als Argument eine Größe übergibt, und die prüft, ob diese Größe verfübgar ist.
-  Die Methode soll True zurückgeben, wenn die Größe verfügbar ist, ansonsten gibt sie False zurück.
-
+- Legt ein Dict für ein T-Shirt an.
+- Das Dict soll Werte für Farbe, Preis und Marke enthalten.
