@@ -51,3 +51,19 @@ Ausgabe:
 {'name': 'Peter', 'age': 32, 'birthday': '06.06.1989'}
 {'katze': 'miau', 'hund': 'wuff'}
 ```
+
+## Aufgabe 4
+
+Schreibt eine Funktion `countInList`, die eine Liste und einen einzelnen Wert (kann String, Zahl, ... sein)
+übergeben bekommt, und zählt, wie oft dieser Wert in der Liste vorkommt - das Ergebnis soll zurückgegeben werden.
+
+```
+print(countInList(['Julia', 'Peter', 'Emil', 'Peter'], 'Peter'))
+print(countInList([12, 34, 1, 67, 23, 4], 55))
+```
+
+Ausgabe:
+```
+2
+0
+```
