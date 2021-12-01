@@ -13,6 +13,56 @@ C:\> py test.py
 ```
 
 
+## Mehr zu Listen:
+
+### Indexing
+
+- wie beim letzten Mal bereits gesagt, kann über den Index auf Elemente in einer Liste zugreifen
+
+```
+animals = ['Katze', 'Hund', 'Elefant', 'Maus', 'Affe']
+print(animals[0])  # 'Katze'
+``` 
+- ein negativer Index fängt von hinten an, zu zählen -> mit -1 greift man auf das letzte Element zu, mit -2 auf das vorletzte usw.
+```
+print(animals[-1])  # 'Affe'
+print(animals[-3])  # 'Elefant'
+``` 
+- mit zwei Zahlen und Doppelpunkt dazwischen, kann man auf einen Teil der Liste zugreifen (man bekommt also eine neue Liste): 
+vom Index vor dem Doppelpunkt bis zu Index nach dem Doppelpunkt minus eins
+```
+print(animals[1:3])  # ['Hund', 'Elefant']
+print(animals[3:4])  # ['Maus']
+```
+- lässt man den Index vor dem Doppelpunkt weg, bekommt man den Teil vom Anfang der Liste bis Index nach dem Doppelpunkt minus eins;
+lässt man den Index nach dem Doppelpunkt weg, bekommt man den Teil vom Index vor dem Doppelpunkt bis zum Ende der Liste
+```
+print(animals[:3])   # ['Katze', 'Hund', 'Elefant']
+print(animals[3:])   # ['Maus', 'Affe']
+```
+
+### Übung 1
+- Legt eine Liste mit 4 Namen an und gebt den Teil der Liste mit den beiden Namen in der Mitte aus.
+- Was passiert, wenn man den Index vor dem Doppelpunkt UND den Index nach dem Doppelpunkt weglässt?
+
+### Prüfen, ob Elemente in einer Liste enthalten sind
+
+- dazu verwendet man `if ... in ...`:
+```
+animals = ['Katze', 'Hund', 'Elefant', 'Maus', 'Affe']
+if 'Katze' in animals:
+  print('Katze ist in der Liste!')
+```
+- will man wissen, ob ein Element nicht in der Liste enthalten ist, kann man `not in` verwenden:
+```
+if 'Katze' not in animals:
+  print('Katze ist nicht in der Liste!')
+```
+
+### Übung 2
+- Schreibt eine kleine Funktion: Sie bekommt ein Element und eine Liste übergeben, und soll 'Ja!' zurückgeben,
+wenn das Element in der Liste enthalten ist, ansonsten gibt sie 'Nein!' zurück.
+
 ## Eigene Daten-Typen definieren: Klassen & Objekte
 
 - oft braucht man mehrere Variablen des gleichen Typs, die alle die gleichen Eigenschaften / Funktionalität haben,
@@ -68,7 +118,7 @@ person1 = Person("John", 36)
 person1.say_hi() # "Hi, ich bin John"
 ```
 
-### Übung 1
+### Übung 3
 
 ```
 t_shirt = {
@@ -85,12 +135,12 @@ t_shirt = {
 - Erstellt damit zwei T-Shirt Objekte.
 - Erhöht den Preis von beiden T-Shirts.
 
-### Übung 2
+### Übung 4
 
 - Fügt der T-Shirt Klasse eine Eigenschaft hinzu, die einen maximalen Preis festlegt, der für alle T-Shirts gleich ist.
 - Ändert die Preis-Erhöhen-Methode so, dass der Preis nur erhöht wird, wenn der neue Preis nicht höher als der maximale Preis ist.
 
-## Übung 3
+## Übung 5
 
 - Fügt der T-Shirt Klasse eine Eigenschaft hinzu, die die Größen, in denen das T-Shirt gekauft werden kann, in einer Liste enthält.
 - Fügt der T-Shirt Klasse eine Methode hinzu, der man als Argument eine Größe übergibt, und die prüft, ob diese Größe verfübgar ist.
