@@ -55,6 +55,14 @@ print(animals[1])  # 'Hund'
 - Was passiert, wenn man versucht auf einen Index zuzugreifen, für den es keinen Wert in der Liste gibt?
 
 
+#### Lösung:
+
+```
+names = ['Julia', 'Paul', 'Johannes', 'Sarah']
+print(names[2])
+print(names[6]) # Fehler: IndexError
+```
+
 ## Built-In Listen-Methoden
 
 - Listen in Python bringen eigene Funktionen (Methoden) mit, mit denen man sie z.B. verändern kann
@@ -96,6 +104,13 @@ for animal in animals:
 - Schreibt eine for-Schleife, die jeden Namen aus dem Array aus Übung 1 zusammen mit einem Nachnamen ausgibt.
 - Ändert den Code in der Schleife so, dass nur Namen mit 5 Buchstaben ausgegeben werden.
 
+#### Lösung:
+
+```
+for name in names:
+  if (len(name) == 5):
+    print(name)
+```
 
 ## Und noch mehr Daten: Dictionaries
 
@@ -124,3 +139,14 @@ person['phone_number'] = '0123/456789'
 
 - Legt ein Dict für ein T-Shirt an.
 - Das Dict soll Werte für Farbe, Preis und Marke enthalten.
+
+
+#### Lösung:
+
+```
+t_shirt = {
+  "color": "rot",
+  "price": 10.00,
+  "brand": "Adidas"
+}
+```
